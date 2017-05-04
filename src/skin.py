@@ -117,7 +117,7 @@ class WesternSkin(Skin):
 class EasternSkin(Skin):
     NAME = {
         'lm1': 'kela',             'lf1': 'kalidjan',
-        'lm2': 'kodjok',           'lf2': 'kodjdjan',
+        'lm2': 'kodjok',           'lf2': 'kodjan',
         'lm3': 'balang',           'lf3': 'belinj',
         'lm4': 'bangardi',         'lf4': 'bangardidjan',
         'rm1': 'ngarridj',         'rf1': 'ngarridjdjan',
