@@ -75,19 +75,19 @@ class Skin:
     # spouse
     # NB we're not modelling first and second choices here
     def SP1(self):
-        return self.__class__(flip(self.matrimoiety) +
-                              flip(self.gender) +
+        return self.__class__(flip[self.matrimoiety] +
+                              flip[self.gender] +
                               self.number)
     def SP2(self):
-        return self.__class__(flip(self.matrimoiety) +
-                              flip(self.gender) +
-                              flip(self.number))
+        return self.__class__(flip[self.matrimoiety] +
+                              flip[self.gender] +
+                              flip[self.number])
 
     # father
     def F1(self):
-        return self.M().P1()
+        return self.M().SP1()
     def F2(self):
-        return self.M().P2()
+        return self.M().SP2()
 
     # male daughter
     def mD1(self):
